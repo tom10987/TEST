@@ -1,28 +1,4 @@
 
-## PC での操作
-
----
-#### リポジトリの更新手順
-
-* プッシュ
-
-![settings05][set05]
-
-**統合作業の責任者** は、そのまま `origin` を選択してください。
-
-**作業メンバー** は、**自分が作成したリモート名** を選択してください。
-
-チェックボックスにチェックが入っている状態でプッシュしてください。
-
-
-* プル
-
-![settings06][set06]
-
-メンバー全員が `origin` を選択してプルしてください。
-
-
----
 ## `GitHub` での操作
 
 ---
@@ -32,12 +8,36 @@
 
 * 統合先のリポジトリを作成：**統合作業の責任者**
 
-![][]
+![github01][gh01]
 
-自分のアカウントにて、チーム制作のリポジトリを作成します。
+ログインできていれば、アイコンから自分のページを開くことができます。
+
+![github02][gh02]
+
+自分のアカウントにて、チーム制作のリポジトリを作成するために、リポジトリの一覧を表示します。
+
+![github03][gh03]
+
+`New` ボタンを選択して、リポジトリを作成してください。
+
+リポジトリが作成されたことを確認できたら完了です。  
+他のメンバーに連絡して、下記の手順を進めてください。
+
+
+* リポジトリをフォークする：**作業メンバー**
+
+**統合作業の責任者** のページから、チーム制作のリポジトリを開いてください。
+
+![github04][gh04]
+
+画面右上にある `Fork` ボタンを選択すれば、自分のアカウントにリポジトリのコピーが始まります。
+
+自分のページが表示されれば、フォーク作業の完了です。
 
 
 ---
+## `Source Tree` での準備
+
 #### `GitHub` のリポジトリとリンクさせる
 
 ※ ここから先の手順は **統合作業の責任者** と **作業を進めるメンバー** で手順が少し変わります。
@@ -98,7 +98,37 @@
 
 このようになっていれば完了です。**OK** を選択してください。
 
+
 ---
+## PC での操作
+
+---
+#### リポジトリの更新手順
+
+* プッシュ
+
+![settings05][set05]
+
+**統合作業の責任者** は、そのまま `origin` を選択してください。
+
+**作業メンバー** は、**自分が作成したリモート名** を選択してください。
+
+チェックボックスにチェックが入っている状態でプッシュしてください。
+
+
+* プル
+
+![settings06][set06]
+
+メンバー全員が `origin` を選択してプルしてください。
+
+
+---
+
+[gh01]: https://github.com/tom10987/TEST/blob/master/ScreenShots/github_account.png
+[gh02]: https://github.com/tom10987/TEST/blob/master/ScreenShots/github_top.png
+[gh03]: https://github.com/tom10987/TEST/blob/master/ScreenShots/github_create_repo.png
+[gh04]: https://github.com/tom10987/TEST/blob/master/ScreenShots/github_fork.png
 
 [set01]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_clone.png
 [set02]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_remote_1.png
