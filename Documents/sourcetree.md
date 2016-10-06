@@ -1,7 +1,7 @@
 
-#### `Source Tree`
+#### Source Tree
 
-[こちら][https://www.sourcetreeapp.com/]
+[こちら](https://www.sourcetreeapp.com/)
 からダウンロード
 
 ---
