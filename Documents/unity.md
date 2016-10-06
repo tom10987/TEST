@@ -44,3 +44,11 @@
 
 ちなみに、エディターの設定を変更することで、  
 テストプレイ中など、エディターの状態に合わせて背景色を変更することもできます。
+
+`Edit -> Preferences...` の順に選択すると、下記画像のようなウィンドウが開きます。
+
+![preferences][image]
+
+[image]: https://github.com/tom10987/blob/master/ScreenShots/unity_preferences.png
+
+`playmode tint` という項目がテストプレイ中のカラーになります。
