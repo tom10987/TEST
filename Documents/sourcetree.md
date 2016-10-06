@@ -40,22 +40,28 @@
 * ステップ３  
 ![setup03][st03]
 
-当然、持っていないので、画面下部 `Sign up.` をクリックします。
+画面下部 `Sign up.` をクリックします。
 
-なお `Gmail` アカウントを持っていて、それを利用したい場合は、  
-画面上部から `Gmail` アカウントの認証に進んでください。
+~~~
+なお Gmail アカウントを持っていて、それを利用したい場合は、
+画面上部から Gmail アカウントの認証に進んでください。
 
-`Gmail` アカウントを使う場合は、次のステップは省略してください。
+Gmail アカウントを使う場合は、次のステップは省略してください。
+~~~
 
 * ステップ４  
 ![setup04][st04]
 
-画面の指示に従って、メールアドレス、アカウント名、パスワードを入力します。
+上から順に、メールアドレス、アカウント名、パスワードを入力します。
+
+**私はロボットではありません** にチェックを必ず入れてください。
 
 `Sign up` をクリックすると、入力したメールアドレスに認証メールが届くので、  
 メールにある認証ボタンをクリックすれば完了です。
 
-Web ページが開きますが、そのまま閉じてしまって問題ありません。
+~~~
+このとき、Web ページが開きますが、そのまま閉じてしまって問題ありません。
+~~~
 
 `Source Tree` に戻り、認証を済ませたメールアドレスとパスワードを入力してください。
 
@@ -88,6 +94,8 @@ Web ページが開きますが、そのまま閉じてしまって問題あり�
 あらかじめクローン（コピー）するリポジトリを選択する画面になります。
 
 チーム制作用のリポジトリが作成済みなら、それを選択してください。  
+保存先フォルダの設定に注意してください。
+
 ない場合は、**スキップ** を選択します。
 
 * ステップ１０  
@@ -103,16 +111,58 @@ Web ページが開きますが、そのまま閉じてしまって問題あり�
 ---
 #### `GitHub` のリポジトリとリンクさせる
 
+※ ここから先の手順は **統合作業の責任者** と **作業を進めるメンバー** で手順が少し変わります。
+
+
 * クローン  
 ※ 上記セットアップにてクローン済みなら、このステップは省略してください。
 
-クローンとは、サーバー上にあるリポジトリを `PC` にコピーすることを言います。  
+~~~
+クローンとは、サーバー上にあるリポジトリを PC にコピーすることを言います。  
 ついでに、そのサーバーのリポジトリとのリンクも行います。
+~~~
 
-
-![setup12][st05]
+![settings00][st05]
 
 左上にある **新規/クローンの作成** を選択してください。
+
+
+![settings01][set01]
+
+**統合作業の責任者** が作成したリポジトリの `URL` を入力します。  
+このとき、`URL` の末尾に必ず `.git` と入力してください。
+
+クローン先のフォルダを指定します。  
+アドレス欄の右側にあるボタンから直接フォルダを選択できます。
+
+~~~
+デスクトップを指定する場合、
+そのままだとデスクトップ上にある内容全てが管理対象に含まれるので、注意してください。
+
+その場合は、デスクトップ上に空フォルダを作成、そのフォルダを指定してください。
+~~~
+
+* リモート  
+※ **統合作業の責任者** は、この手順をスキップしてください。
+
+~~~
+リモートとは、どのサーバーの、どのリポジトリに対してリンクしているかの設定をいいます。
+~~~
+
+![settings02][set02]
+
+
+![settings03][set03]
+
+
+![settings04][set04]
+
+
+![settings05][set05]
+
+
+![settings06][set06]
+
 
 ---
 
@@ -131,4 +181,9 @@ Web ページが開きますが、そのまま閉じてしまって問題あり�
 [step07]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_setup_7.png
 [step08]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_setup_8.png
 
-[st06]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_clone.png
+[set01]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_clone.png
+[set02]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_remote_1.png
+[set03]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_remote_2.png
+[set04]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_remote_3.png
+[set05]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_push.png
+[set06]: https://github.com/tom10987/TEST/blob/master/ScreenShots/sourcetree_pull.png
