@@ -9,7 +9,10 @@
 
 * [開発前の準備][un]
 
-* [`Source Tree` の使い方など][st]
+* [`Source Tree` の使い方][st]
+
+* [`GitHub` の使い方][gh]
 
 [un]: https://github.com/tom10987/TEST/blob/master/Documents/unity.md
 [st]: https://github.com/tom10987/TEST/blob/master/Documents/sourcetree.md
+[gh]: https://github.com/tom10987/TEST/blob/master/Documents/github.md
