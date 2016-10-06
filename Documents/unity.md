@@ -49,6 +49,6 @@
 
 ![preferences][image]
 
-[image]: https://github.com/tom10987/blob/master/ScreenShots/unity_preferences.png
+[image]: https://github.com/tom10987/TEST/blob/master/ScreenShots/unity_preferences.png
 
-`playmode tint` という項目がテストプレイ中のカラーになります。
+`Playmode tint` という項目がテストプレイ中のカラーになります。
