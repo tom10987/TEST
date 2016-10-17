@@ -1,2 +1,13 @@
 
 # バージョン管理ツールの管理対象から除外したいファイル名を記述するファイルです
+
+/[lL]ibrary
+/[tT]emp
+/[oO]bj
+
+/.vs
+
+*.sln
+*.csproj
+*.exe
+*.userprefs
