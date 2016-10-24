@@ -9,9 +9,12 @@
 
 * [`Unity` 開発の注意点と準備][un]
 
-* [`Source Tree` の使い方][st]
+* [`Source Tree` の準備][st]
 
 * [`GitHub` の使い方][gh]
+
+
+---
 
 [un]: https://github.com/tom10987/TEST/blob/master/Documents/unity.md
 [st]: https://github.com/tom10987/TEST/blob/master/Documents/sourcetree.md
